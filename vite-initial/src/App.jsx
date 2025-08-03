@@ -1,7 +1,6 @@
-// import { useState } from 'react';
 import reactLogo from './assets/react.svg';
-// import viteLogo from '/vite.svg'
-import { CurrentYear } from './utils/utils';
+import { CurrentYear, CurrentYearJS } from './utils/utils';
+
 import './App.css';
 
 function App() {
@@ -14,11 +13,8 @@ function App() {
 			</div>
 			<h1>Learn React</h1>
 			<div className="card">
-				<CurrentYear />
+				<CurrentYearJS />
 			</div>
-			{/* <p className="read-the-docs">
-				Click on the Vite and React logos to learn more
-			</p> */}
 		</>
 	);
 }
